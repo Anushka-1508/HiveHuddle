@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hive Huddle</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        /* display: flex; */
+        /* justify-content: center;
+            align-items: center; */
+        height: 100vh;
+      }
+
+      h1 {
+        
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      button {
+        background-color: #037AFC; /* Blue button */
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #037AFC; /* Darker blue on hover */
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .home-body {
+        background-color: #f0f0f0;
+        margin-top: 40px;
+        height: 150px;
+        width: 220px;
+        margin-left:43% ;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid white; /* Add white border */
+        padding: 50px; /* Add padding for better appearance */
+      }
+      .inner-home-body{
+        display: flex;
+        justify-content: center;
+            align-items: center;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('HH_1.jpg');
+      background-size: cover;
+    "
+  >
+    <div class="home-body">
+      <h1>Hive Huddle</h1>
+      <div class="inner-home-body">
+        <button onclick="loginFunction()">
+          <a href="index.html">Login</a>
+        </button>
+        <button><a href="register.html">Register</a></button>
+      </div>
+    </div>
+    <!-- <script src="/js/Auth.js"></script> -->
+  </body>
+</html>
